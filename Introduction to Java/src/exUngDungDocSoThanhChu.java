@@ -12,7 +12,7 @@ public class exUngDungDocSoThanhChu {
                 if (inputRay[0].equals("0")) {
                     System.out.println("zero");
                 } else {
-                    System.out.println(tenDown(inputRay[1]));
+                    System.out.println(tenDown(inputRay[0]));
                 }
                 break;
             case 1:
@@ -86,6 +86,11 @@ public class exUngDungDocSoThanhChu {
     }
 
     private static String hundredUp(String number) {
-        return tenDown(number) + " hundred";
+        switch (number){
+            case "0":
+                return "";
+            default:
+                return tenDown(number) + " hundred";
+        }
     }
 }
