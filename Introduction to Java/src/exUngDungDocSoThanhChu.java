@@ -23,12 +23,11 @@ public class exUngDungDocSoThanhChu {
                     System.out.println(hundredUp(inputRay[0]));
                 } else {
                     System.out.print(hundredUp(inputRay[0]));
-                    System.out.print(" "+tenUp(inputRay[1], tenDown(inputRay[2])) + "\n");
+                    System.out.print(" " + tenUp(inputRay[1], tenDown(inputRay[2])) + "\n");
                 }
         }
 
     }
-
 
 
     private static String tenDown(String number) {
@@ -86,11 +85,10 @@ public class exUngDungDocSoThanhChu {
     }
 
     private static String hundredUp(String number) {
-        switch (number){
-            case "0":
-                return "";
-            default:
-                return tenDown(number) + " hundred";
+        if (number.equals("0")) {
+            return "";
+        } else {
+            return tenDown(number) + " hundred";
         }
     }
 }
