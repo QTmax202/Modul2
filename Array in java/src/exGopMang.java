@@ -18,7 +18,7 @@ public class exGopMang {
         System.out.print("Nhap so phan tu trong mang array2: ");
         size2 = input.nextInt();
 
-        int[] arr2 = new int[size1];
+        int[] arr2 = new int[size2];
         for (int i = 0; i < arr2.length; i++) {
             System.out.print("Nhap phan tu "+(i+1)+" trong mang array2 : ");
             arr2[i] = input.nextInt();
