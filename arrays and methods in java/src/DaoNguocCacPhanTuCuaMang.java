@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class DaoNguocCacPhanTuCuaMang {
@@ -15,10 +16,7 @@ public class DaoNguocCacPhanTuCuaMang {
             arr[i] = input.nextInt();
         }
 
-        System.out.println("Element in array :");
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i]+" ");
-        }
+        System.out.print("new Array= "+ Arrays.toString(arr));
 
         for (int i = 0; i < arr.length/2 ; i++) {
             int temp = arr[i];
@@ -27,9 +25,6 @@ public class DaoNguocCacPhanTuCuaMang {
         }
 
         System.out.println("");
-        System.out.println("Reverse array :");
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i]+" ");
-        }
+        System.out.print("new Array= "+ Arrays.toString(arr));
     }
 }

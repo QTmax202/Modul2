@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ecThemPhanTuVaoMang {
@@ -21,11 +22,7 @@ public class ecThemPhanTuVaoMang {
             array[array.length-1]=arr[arr.length-1];
             array[index-1] = num;
 
-            System.out.print("new Array= {");
-            for (int i = 0; i < array.length-1; i++) {
-                System.out.print(array[i]+",");
-            }
-            System.out.print(array[array.length-1]+"}");
+            System.out.print("new Array= "+ Arrays.toString(array));
         } while (index <= -1 || index >= arr.length);
     }
 }

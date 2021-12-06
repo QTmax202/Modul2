@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class exXoaPhanTuKhoiMang {
@@ -17,10 +18,6 @@ public class exXoaPhanTuKhoiMang {
             }
         }
 
-        System.out.print("new Array= {");
-        for (int i = 0; i < arr.length-1; i++) {
-            System.out.print(arr[i]+",");
-        }
-        System.out.print(arr[arr.length-1]+"}");
+        System.out.print("new Array= "+ Arrays.toString(arr));
     }
 }

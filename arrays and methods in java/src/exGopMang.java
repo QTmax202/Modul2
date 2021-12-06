@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class exGopMang {
     public static void main(String[] args) {
         int[] arr1 = {1, 2, 3, 4, 5},
@@ -11,11 +13,7 @@ public class exGopMang {
                 arr3[i+arr1.length] = arr2[i];
         }
 
-        System.out.print("new Array= {");
-        for (int i = 0; i < arr3.length - 1; i++) {
-            System.out.print(arr3[i] + ",");
-        }
-        System.out.print(arr3[arr3.length - 1] + "}");
+        System.out.print("new Array= "+ Arrays.toString(arr3));
     }
 
 }

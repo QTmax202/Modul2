@@ -22,6 +22,6 @@ public class exTimGTNNTrongMang {
                 index = i;
             }
         }
-        System.out.printf("Gia tri mho nhat trong mang Array[%d]= "+min,index);
+        System.out.printf("Gia tri mho nhat trong mang Array[%d]= "+min, index);
     }
 }

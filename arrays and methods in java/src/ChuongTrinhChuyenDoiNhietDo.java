@@ -29,7 +29,7 @@ public class ChuongTrinhChuyenDoiNhietDo {
                     break;
             }
             System.out.println("");
-        } while (choice != 0);
+        } while ( choice != 0 );
     }
     public static double DoCToDoF(double DoC){
         double DoF = (9.0 / 5) * DoC + 32;

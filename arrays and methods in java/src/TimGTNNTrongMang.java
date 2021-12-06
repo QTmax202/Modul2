@@ -13,7 +13,7 @@ public class TimGTNNTrongMang {
         }
 
         int index = min(arr);
-        System.out.printf("Phan tu co GTNN trong mang la %d o vi tri thu %d trong mang",arr[index],index+1);
+        System.out.printf("Phan tu co GTNN trong mang la %d o vi tri thu %d trong mang", arr[index], index+1);
 
     }
 

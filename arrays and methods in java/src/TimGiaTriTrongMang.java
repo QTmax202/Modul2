@@ -17,7 +17,7 @@ public class TimGiaTriTrongMang {
             }
         }
         if (!isExist){
-            System.out.printf("Name %s no in the list of the students!",inName);
+            System.out.printf("Name %s no in the list of the students!", inName);
         }
     }
 }

@@ -24,6 +24,6 @@ public class UngDungDemSoLuongSVThiDo {
              count++;
             }
         }
-        System.out.printf("So luong hoc sinh thi do: %d",count);
+        System.out.printf("So luong hoc sinh thi do: %d", count);
     }
 }
