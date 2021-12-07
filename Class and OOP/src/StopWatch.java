@@ -13,15 +13,15 @@ public class StopWatch {
         this.running = false;
     }
 
-    public long getElapsedTime(){
-        long elapsed;
-        if (running){
-            elapsed = System.currentTimeMillis()- startTime;
-        } else {
-            elapsed = stopTime- startTime;
-        }
-        return elapsed;
-    }
+//    public long getElapsedTime(){
+//        long elapsed;
+//        if (running){
+//            elapsed = System.currentTimeMillis()- startTime;
+//        } else {
+//            elapsed = stopTime- startTime;
+//        }
+//        return elapsed;
+//    }
     
     public long getElapsedTimeSecs(){
         long elapsed;
