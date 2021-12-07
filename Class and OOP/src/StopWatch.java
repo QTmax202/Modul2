@@ -1,6 +1,6 @@
 public class StopWatch {
-    public long startTime = 0;
-    public long stopTime =0;
+    private long startTime = 0;
+    private long stopTime =0;
     private boolean running = false;
 
     public void start(){
