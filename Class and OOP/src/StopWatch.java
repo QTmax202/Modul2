@@ -1,19 +1,35 @@
 public class StopWatch {
-    int startTime,endTime;
-    public StopWatch(){
-        this.startTime = 0;
-        this.endTime = 0;
+    public long startTime = 0;
+    public long stopTime =0;
+    private boolean running = false;
+
+    public void start(){
+        this.startTime =System.currentTimeMillis();
+        this.running = true;
     }
 
-    public int start(){
-        return this.startTime =0;
+    public void stop(){
+        this.stopTime = System.currentTimeMillis();
+        this.running = false;
     }
 
-    public int getElapsedTime(){
-        return 0;
+    public long getElapsedTime(){
+        long elapsed;
+        if (running){
+            elapsed = System.currentTimeMillis()- startTime;
+        } else {
+            elapsed = stopTime- startTime;
+        }
+        return elapsed;
     }
-
-    public int stop(){
-        return 0;
+    
+    public long getElapsedTimeSecs(){
+        long elapsed;
+        if (running){
+            elapsed= (System.currentTimeMillis()- startTime)/1000;
+        } else {
+            elapsed = (stopTime- startTime)/1000;
+        }
+        return elapsed;
     }
 }
