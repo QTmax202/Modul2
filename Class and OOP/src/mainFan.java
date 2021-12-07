@@ -7,6 +7,7 @@ public class mainFan {
         fan1.setColor("yellow");
         fan1.setRadius(10);
         System.out.println(fan1.toString());
+        fan2.setSpeed(2);
         System.out.println(fan2.toString());
     }
 }
