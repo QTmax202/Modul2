@@ -7,13 +7,13 @@ public class exTimGTNNTrongMang {
         System.out.print("Nhap so phan tu: ");
         int size = input.nextInt();
 
-        double[] array =new double[size];
+        int[] array =new double[size];
         for (int i = 0; i < size; i++) {
             System.out.printf("Phan tu thu %d trong mang: ",i+1);
-            array[i] = input.nextDouble();
+            array[i] = input.nextInt();
         }
 
-        double min = array[0];
+        int min = array[0];
         int index = 0;
 
         for (int i = 0; i < array.length; i++) {
@@ -22,6 +22,6 @@ public class exTimGTNNTrongMang {
                 index = i;
             }
         }
-        System.out.printf("Gia tri mho nhat trong mang Array[%d]= "+min,index);
+        System.out.printf("Gia tri mho nhat trong mang Array[%d]= %d",index,,min);
     }
 }
