@@ -1,3 +1,5 @@
+package Equation;
+
 public class FirstDegreeEquation {
     double B, C;
     public FirstDegreeEquation(double num1, double num2){

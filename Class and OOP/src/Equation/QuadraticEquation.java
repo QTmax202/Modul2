@@ -1,3 +1,5 @@
+package Equation;
+
 public class QuadraticEquation {
     double A, B, C;
 

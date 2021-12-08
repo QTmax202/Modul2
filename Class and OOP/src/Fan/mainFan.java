@@ -1,3 +1,7 @@
+package Fan;
+
+import Fan.Fan;
+
 public class mainFan {
     public static void main(String[] args) {
         Fan fan1 = new Fan();

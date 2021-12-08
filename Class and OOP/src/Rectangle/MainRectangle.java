@@ -1,3 +1,5 @@
+package Rectangle;
+
 import java.util.Scanner;
 
 public class MainRectangle {
@@ -12,7 +14,7 @@ public class MainRectangle {
 
         Rectangle rectangle = new Rectangle(width,height);
 
-        System.out.println("Your Rectangle: "+rectangle.display());
+        System.out.println("Your Rectangle.Rectangle: "+rectangle.display());
         System.out.println("Perimeter of the Rectabgle: "+rectangle.getPerimeter());
         System.out.print("Area of the Rectabgle: "+rectangle.getArea());
     }

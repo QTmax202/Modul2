@@ -1,3 +1,5 @@
+package Fan;
+
 public class Fan {
     int speed;
     double radius;

@@ -1,3 +1,8 @@
+package Equation;
+
+import Equation.FirstDegreeEquation;
+import Equation.QuadraticEquation;
+
 import java.util.Scanner;
 
 public class MainEquation {

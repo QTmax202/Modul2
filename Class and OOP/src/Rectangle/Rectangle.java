@@ -1,3 +1,5 @@
+package Rectangle;
+
 public  class Rectangle {
     double width, height;
 
@@ -15,6 +17,6 @@ public  class Rectangle {
     }
 
     public String display(){
-        return "Rectangle= { width= "+width+", height= "+height+"};";
+        return "Rectangle.Rectangle= { width= "+width+", height= "+height+"};";
     }
 }
