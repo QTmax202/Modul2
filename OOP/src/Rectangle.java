@@ -8,10 +8,9 @@ public class Rectangle extends geometric {
         this.height = height;
     }
     public Rectangle(String color, boolean filled, double width, double height) {
+        super(color,filled);
         this.width = width;
         this.height = height;
-        setColor(color);
-        setFilled(filled);
     }
     public double getWidth() {
         return width;

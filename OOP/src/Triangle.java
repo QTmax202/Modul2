@@ -14,11 +14,11 @@ public class Triangle extends geometric{
     }
 
     public Triangle(double edge1, double edge2, double edge3,boolean filled, String color){
+        super(color,filled);
         this.edge1 = edge1;
         this.edge2 = edge2;
         this.edge3 = edge3;
-        setFilled(filled);
-        setColor(color);
+
     }
 
     public double getEdge1() {

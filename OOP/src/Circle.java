@@ -1,12 +1,13 @@
 public class Circle extends geometric {
     private double radius;
 
-    public Circle(){}
+    public Circle(double radius){
+        this.radius = radius;
+    }
 
     public Circle(double radius, String color, boolean filled){
+        super(color,filled);
         this.radius = radius;
-        setColor(color);
-        setFilled(filled);
     }
 
     public double getRadius(){
