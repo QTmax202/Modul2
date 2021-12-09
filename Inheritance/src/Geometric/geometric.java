@@ -1,3 +1,6 @@
+package Geometric;
+
+
 public class geometric {
 
     private String color = "Trắng";
