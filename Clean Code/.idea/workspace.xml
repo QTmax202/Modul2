@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3f818aa-74fb-4ca1-adb3-94fbd36c7289" name="Changes" comment="Clean Code(14/12/2021)">
+      <change beforePath="$PROJECT_DIR$/../.idea/Modul 2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Modul 2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Clean Code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Code/com/codegym/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Code/com/codegym/CalculatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Code/com/codegym/Cylinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Code/com/codegym/FizzBuzz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Code/com/codegym/FizzBuzzTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Clean Code/com/codegym/CylinderTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/apj-calculator" value="main" />
+        <entry key="$PROJECT_DIR$/apj-cylinder" value="develop" />
+        <entry key="$PROJECT_DIR$/apj-fizzbuzz" value="main" />
+        <entry key="$PROJECT_DIR$/apj-tennis-game" value="main" />
+        <entry key="$PROJECT_DIR$/src/apj-fizzbuzz" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="22Fr0kJzvxoOBnTjjkt9VxAjQHM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="JAVA" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\QT-247202\Desktop\Modul 2\Clean Code\src\apj-calculator\test\com\codegym" />
+      <recent name="C:\Users\QT-247202\Desktop\Modul 2\Clean Code\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FizzBuzzTest.testFizzBuzz15">
+    <configuration name="CalculatorTest.testCalculateAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Clean Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codegym.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codegym" />
+      <option name="MAIN_CLASS_NAME" value="com.codegym.CalculatorTest" />
+      <option name="METHOD_NAME" value="testCalculateAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzTest.testFizzBuzz15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Clean Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codegym.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codegym" />
+      <option name="MAIN_CLASS_NAME" value="com.codegym.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="testFizzBuzz15" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FizzBuzzTest.testFizzBuzz15" />
+        <item itemvalue="JUnit.CalculatorTest.testCalculateAdd" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3f818aa-74fb-4ca1-adb3-94fbd36c7289" name="Changes" comment="" />
+      <created>1639443971947</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639443971947</updated>
+      <workItem from="1639443984421" duration="1496000" />
+      <workItem from="1639445532813" duration="347000" />
+      <workItem from="1639445950856" duration="4533000" />
+      <workItem from="1639452166952" duration="820000" />
+      <workItem from="1639454172435" duration="491000" />
+      <workItem from="1639454760520" duration="28000" />
+      <workItem from="1639454801856" duration="544000" />
+    </task>
+    <task id="LOCAL-00001" summary="Clean Code(14/12/2021)">
+      <created>1639450724563</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639450724563</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Clean Code(14/12/2021)">
+      <created>1639452303466</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1639452303466</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Clean Code(14/12/2021)">
+      <created>1639454531057</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639454531057</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Clean Code(14/12/2021)">
+      <created>1639454558600</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1639454558600</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Clean Code(14/12/2021)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean Code(14/12/2021)" />
+  </component>
+</project>
