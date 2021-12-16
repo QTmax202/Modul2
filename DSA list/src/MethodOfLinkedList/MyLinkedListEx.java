@@ -1,5 +1,7 @@
 package MethodOfLinkedList;
 
+import org.w3c.dom.Node;
+
 public class MyLinkedListEx<E> {
     private Node head;
     private int numNode;
@@ -66,6 +68,19 @@ public class MyLinkedListEx<E> {
     public void get(int index) {
         Node temp = head;
         for (int i = 0; i < index - 1; i++) temp = temp.next;
+        System.out.println(temp.data);
+    }
+
+    public void getFirst(){
+        Node temp = head;
+        System.out.println(temp.data);
+    }
+
+    public void getLast(){
+        Node temp = head;
+        while(temp.next != null){
+            temp = temp.next;
+        }
         System.out.println(temp.data);
     }
 

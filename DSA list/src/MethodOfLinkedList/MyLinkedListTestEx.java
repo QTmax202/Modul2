@@ -15,6 +15,8 @@ public class MyLinkedListTestEx {
         list.printList();
         System.out.println("-------");
         list.get(5);
+        list.getFirst();
+        list.getLast();
         System.out.println("-------");
         System.out.println(list.indexOf("Melinda"));
         System.out.println("-------");
