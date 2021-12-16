@@ -11,9 +11,15 @@ public class MyLinkedListTestEx {
         list.addLast(73);
         list.printList();
         System.out.println("-------");
-        list.get(6);
+        list.remove(3);
+        list.printList();
+        System.out.println("-------");
+        list.get(5);
+        System.out.println("-------");
         System.out.println(list.indexOf("Melinda"));
+        System.out.println("-------");
         System.out.println(list.contains("Melinda"));
+        System.out.println("-------");
         list.size();
     }
 }
