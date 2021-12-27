@@ -46,6 +46,7 @@ public class Manager {
                 }
             }
         } catch (Exception e) {
+            e.printStackTrace();
         }
         return id;
     }
