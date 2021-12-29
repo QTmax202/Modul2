@@ -6,8 +6,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class Main {
+
+    private static final String COMMA_DELIMITER = ";"; // Split by comma
+
     public static void main(String[] args) {
 
         BufferedReader br = null;
@@ -15,8 +17,9 @@ public class Main {
             String line;
             br = new BufferedReader(new FileReader("src/read_csv_file/countryss.csv"));
 
+            // How to read file in java line by line?
             while ((line = br.readLine()) != null) {
-                printCountry(parseCsvLine(line));
+                printContry(parseCsvLine(line));
             }
 
         } catch (IOException e) {
@@ -25,8 +28,8 @@ public class Main {
             try {
                 if (br != null)
                     br.close();
-            } catch (IOException e) {
-                e.printStackTrace();
+            } catch (IOException crunchifyException) {
+                crunchifyException.printStackTrace();
             }
         }
     }
@@ -34,7 +37,7 @@ public class Main {
     public static List<String> parseCsvLine(String csvLine) {
         List<String> result = new ArrayList<>();
         if (csvLine != null) {
-            String[] splitData = csvLine.split(";");
+            String[] splitData = csvLine.split(COMMA_DELIMITER);
             for (int i = 0; i < splitData.length; i++) {
                 result.add(splitData[i]);
             }
@@ -42,7 +45,7 @@ public class Main {
         return result;
     }
 
-    private static void printCountry(List<String> country) {
+    private static void printContry(List<String> country) {
         System.out.println(
                 "Country [id= "
                         + country.get(0)

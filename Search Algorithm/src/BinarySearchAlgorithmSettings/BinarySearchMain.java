@@ -1,7 +1,5 @@
 package BinarySearchAlgorithmSettings;
 
-import java.util.Scanner;
-
 public class BinarySearchMain {
     public static void main(String[] args) {
         int[] list = {2, 4, 7, 10, 11 , 45, 50 ,55 , 60, 66, 69 , 73, 79};

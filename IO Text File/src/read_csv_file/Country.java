@@ -1,6 +1,7 @@
 package read_csv_file;
 
 public class Country {
+
     private int id;
     private String code;
     private String name;
@@ -9,6 +10,11 @@ public class Country {
         this.id = id;
         this.code = code;
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Country [id=" + id + ", code=" + code + ", name=" + name + "]";
     }
 
     public int getId() {
